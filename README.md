@@ -1,0 +1,4 @@
+qirda
+=====
+
+Infrared file transfer
