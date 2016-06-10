@@ -9,8 +9,8 @@ QMAKE_CFLAGS_DEBUG += -ansi -std=c11 -ggdb -funsigned-char -finline-functions -f
 QMAKE_CXXFLAGS_DEBUG += -ansi -std=c++11 -ggdb -funsigned-char -finline-functions -freorder-functions -fpic -fbounds-check -Wformat -Wextra -Wshadow -Wredundant-decls
 LIBS = -L. -lopenobex # -lusb  # -lirobex
 TARGET = qirda 
-MOC_DIR = .tmp 
-OBJECTS_DIR = .tmp 
+MOC_DIR = obj
+OBJECTS_DIR = obj
 TEMPLATE = app
 TARGET = qirda
 DEPENDPATH += .
@@ -25,11 +25,13 @@ HEADERS += 3rdparty/irobex.h qirda.hpp \
     ui_qirda.h \
     ui_rcvdir.h
 FORMS += infomsg.ui qirda.ui rcvdir.ui
+
 SOURCES += main.cpp qirda.cpp \
     3rdparty/irobex.c \
-    qirdarcv/qirdarcv.cpp \
-    qirdasend/qirdasend.cpp \
+    #qirdarcv/qirdarcv.cpp \
+    #qirdasend/qirdasend.cpp \
     qrc_qirda.cpp
+
 RESOURCES += qirda.qrc
 TRANSLATIONS += tr_qirda_fr.ts
 

@@ -6,14 +6,14 @@ QIRDA_MANPAGE="qirda.1"
 
 # MAINOPTS="-ansi -ggdb -funsigned-char -O2 -finline-functions -freorder-functions\
 #  -static -fpic -fbounds-check -Wformat -Wextra -Wshadow -Wredundant-decls"
-MAINOPTS="-ansi -ggdb -funsigned-char -finline-functions -freorder-functions\
+MAINOPTS="-ansi -std=c++11 -ggdb -funsigned-char -finline-functions -freorder-functions\
  -fpic -fbounds-check -Wformat -Wextra -Wshadow -Wredundant-decls"
 
 
 function ConfigProject()
 {
     PROJ_NAME=$1
-    EXTRA_LIB="-L. -lirobex -lopenobex -lusb"
+    EXTRA_LIB="-L3rdparty/ -lirobex -lopenobex -lusb"
 
     if [ ! -z $2 ]; then
 	CONF_COMPL="$2"

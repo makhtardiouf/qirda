@@ -43,12 +43,14 @@
 
 
  INSTALLING QIRDA
+
 	Run as normal user, the shell script "./install.bash" under the "src"
 	directory. It installs the stripped version of qirda, qirdasend,
 	qirdarcv in /usr/local/bin, after prompting for the root password.
 
 
  BUGS
+
 	* Information related to files sent is displayed only after all
 	transfers are completed. The GUI freezes during long transfers.
 	* Received file information is not yet displayed by the GUI.

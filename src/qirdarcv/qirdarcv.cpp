@@ -13,11 +13,12 @@
  ****************************************************************/
 // Receive files sent from an IRDA enabled device
 
-#include "irobex.h"
+//#include "irobex.h"
+#include "../qirda.hpp"
 #include <iostream>
 #include <QtCore>
 #include <QtWidgets/QApplication>
-
+/*
 class QirdaReceiver : public QThread
 {
 //    Q_OBJECT
@@ -33,6 +34,7 @@ QirdaReceiver::run()
     }
     exec();
 }
+*/
 
 int
 main(int argc, char* argv[])
