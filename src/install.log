@@ -1,0 +1,7 @@
+Installing qirda in /usr/local/bin...
+‘qirda’ -> ‘/usr/local/bin/qirda’
+‘qirdasend/qirdasend’ -> ‘/usr/local/bin/qirdasend’
+‘qirdarcv/qirdarcv’ -> ‘/usr/local/bin/qirdarcv’
+‘tr_qirda_fr.qm’ -> ‘/usr/local/share/qirda/tr_qirda_fr.qm’
+‘../docs/qirda.1’ -> ‘/usr/local/man/man1’
+Done

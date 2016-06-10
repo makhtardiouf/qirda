@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/" >
+	<file>tr_qirda_fr.ts</file>
+	<file>tr_qirda_fr.qm</file>
+        <file>img/qirdaLogo-1.jpg</file>
+        <file>img/qirdaLogo-2.png</file>
+    </qresource>
+</RCC>

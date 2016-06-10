@@ -1,0 +1,43 @@
+[H[J
+
+*** Building libirobex.a ...
+
+/home/makhtar/Downloads/Qirda-0.1/src
+
+
+*** Building qirda...
+
+rm -f .tmp/moc_qirda.cpp
+rm -f qrc_qirda.cpp
+rm -f ui_infomsg.h ui_qirda.h ui_rcvdir.h
+rm -f .tmp/main.o .tmp/qirda.o .tmp/moc_qirda.o .tmp/qrc_qirda.o
+rm -f *~ core *.core
+/usr/lib/i386-linux-gnu/qt4/bin/uic infomsg.ui -o ui_infomsg.h
+/usr/lib/i386-linux-gnu/qt4/bin/uic qirda.ui -o ui_qirda.h
+/usr/lib/i386-linux-gnu/qt4/bin/uic rcvdir.ui -o ui_rcvdir.h
+g++ -c -pipe -g -ansi -ggdb -funsigned-char -finline-functions -freorder-functions -fpic -fbounds-check -Wformat -Wextra -Wshadow -Wredundant-decls -Wall -W -D_REENTRANT -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt4/mkspecs/linux-g++ -I. -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I. -I.tmp -I. -o .tmp/main.o main.cpp
+g++ -c -pipe -g -ansi -ggdb -funsigned-char -finline-functions -freorder-functions -fpic -fbounds-check -Wformat -Wextra -Wshadow -Wredundant-decls -Wall -W -D_REENTRANT -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt4/mkspecs/linux-g++ -I. -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I. -I.tmp -I. -o .tmp/qirda.o qirda.cpp
+/usr/lib/i386-linux-gnu/qt4/bin/moc -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt4/mkspecs/linux-g++ -I. -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I. -I.tmp -I. qirda.hpp -o .tmp/moc_qirda.cpp
+g++ -c -pipe -g -ansi -ggdb -funsigned-char -finline-functions -freorder-functions -fpic -fbounds-check -Wformat -Wextra -Wshadow -Wredundant-decls -Wall -W -D_REENTRANT -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt4/mkspecs/linux-g++ -I. -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I. -I.tmp -I. -o .tmp/moc_qirda.o .tmp/moc_qirda.cpp
+/usr/lib/i386-linux-gnu/qt4/bin/rcc -name qirda qirda.qrc -o qrc_qirda.cpp
+g++ -c -pipe -g -ansi -ggdb -funsigned-char -finline-functions -freorder-functions -fpic -fbounds-check -Wformat -Wextra -Wshadow -Wredundant-decls -Wall -W -D_REENTRANT -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt4/mkspecs/linux-g++ -I. -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I. -I.tmp -I. -o .tmp/qrc_qirda.o qrc_qirda.cpp
+g++  -o qirda .tmp/main.o .tmp/qirda.o .tmp/moc_qirda.o .tmp/qrc_qirda.o    -L/usr/lib/i386-linux-gnu -L. -lirobex -lopenobex -lusb -lQtGui -lQtCore -lpthread 
+{ test -n "" && DESTDIR="" || DESTDIR=.; } && test $(gdb --version | sed -e 's,[^0-9][^0-9]*\([0-9]\)\.\([0-9]\).*,\1\2,;q') -gt 72 && gdb --nx --batch --quiet -ex 'set confirm off' -ex "save gdb-index $DESTDIR" -ex quit 'qirda' && test -f qirda.gdb-index && objcopy --add-section '.gdb_index=qirda.gdb-index' --set-section-flags '.gdb_index=readonly' 'qirda' 'qirda' && rm -f qirda.gdb-index || true
+
+
+*** Building qirdarcv ...
+
+rm -f .tmp/qirdarcv.o
+rm -f *~ core *.core
+g++ -c -pipe -g -ansi -ggdb -funsigned-char -finline-functions -freorder-functions -fpic -fbounds-check -Wformat -Wextra -Wshadow -Wredundant-decls -Wall -W -D_REENTRANT -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -I/usr/share/qt4/mkspecs/linux-g++ -I. -I/usr/include/qt4/QtCore -I/usr/include/qt4/QtGui -I/usr/include/qt4 -I. -I.tmp -o .tmp/qirdarcv.o qirdarcv.cpp
+g++  -o qirdarcv .tmp/qirdarcv.o    -L/usr/lib/i386-linux-gnu -L. -lirobex -lopenobex -lusb -lQtGui -lQtCore -lpthread 
+{ test -n "" && DESTDIR="" || DESTDIR=.; } && test $(gdb --version | sed -e 's,[^0-9][^0-9]*\([0-9]\)\.\([0-9]\).*,\1\2,;q') -gt 72 && gdb --nx --batch --quiet -ex 'set confirm off' -ex "save gdb-index $DESTDIR" -ex quit 'qirdarcv' && test -f qirdarcv.gdb-index && objcopy --add-section '.gdb_index=qirdarcv.gdb-index' --set-section-flags '.gdb_index=readonly' 'qirdarcv' 'qirdarcv' && rm -f qirdarcv.gdb-index || true
+/home/makhtar/Downloads/Qirda-0.1/src
+
+
+*** Building qirdasend ...
+
+rm -f .tmp/qirdasend.o
+rm -f *~ core *.core
+g++ -c -pipe -g -ansi -ggdb -funsigned-char -finline-functions -freorder-functions -fpic -fbounds-check -Wformat -Wextra -Wshadow -Wredundant-decls -Wall -W  -I/usr/share/qt4/mkspecs/linux-g++ -I. -I. -o .tmp/qirdasend.o qirdasend.cpp
+Build failed

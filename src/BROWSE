@@ -1,0 +1,228 @@
+[ebrowse-hs "ebrowse 5.0" " -x" () ()][ebrowse-ts [ebrowse-cs "Ui_QirdaWindow" "Ui" 0() () 0() ]
+([ebrowse-ts [ebrowse-cs "QirdaWindow" "Ui" 0"ui_qirda.h" "class QirdaWindow:" 15680() ]
+()()
+()
+()
+()
+()
+()
+()()
+])()
+()
+()
+()
+()
+()
+()()
+][ebrowse-ts [ebrowse-cs "Ui_QirdaWindow" () 0"ui_qirda.h" "class Ui_QirdaWindow
+{" 945"ui_qirda.h" ]
+()([ebrowse-ms "actAbout" () 0 () "    QAction *actAbout;" 976 0  () () 0]
+[ebrowse-ms "actDetect" () 0 () "    QAction *actDetect;" 1052 0  () () 0]
+[ebrowse-ms "actDisableTrayIcon" () 0 () "    QAction *actDisableTrayIcon;" 1188 0  () () 0]
+[ebrowse-ms "actEnableTrayIcon" () 0 () "    QAction *actEnableTrayIcon;" 1155 0  () () 0]
+[ebrowse-ms "actEnglish" () 0 () "    QAction *actEnglish;" 1077 0  () () 0]
+[ebrowse-ms "actFrench" () 0 () "    QAction *actFrench;" 1101 0  () () 0]
+[ebrowse-ms "actHelp" () 0 () "    QAction *actHelp;" 1123 0  () () 0]
+[ebrowse-ms "actQuit" () 0 () "    QAction *actQuit;" 1028 0  () () 0]
+[ebrowse-ms "actSelectRcvDir" () 0 () "    QAction *actSelectRcvDir;" 1006 0  () () 0]
+[ebrowse-ms "addFileBt" () 0 () "    QPushButton *addFileBt;" 1715 0  () () 0]
+[ebrowse-ms "centralwidget" () 0 () "    QWidget *centralwidget;" 1216 0  () () 0]
+[ebrowse-ms "clearBt" () 0 () "    QPushButton *clearBt;" 1766 0  () () 0]
+[ebrowse-ms "clearDiagnosticsBt" () 0 () "    QPushButton *clearDiagnosticsBt;" 1490 0  () () 0]
+[ebrowse-ms "debuggingBox" () 0 () "    QTextEdit *debuggingBox;" 1378 0  () () 0]
+[ebrowse-ms "gridLayout" () 0 () "    QGridLayout *gridLayout;" 1245 0  () () 0]
+[ebrowse-ms "hboxLayout" () 0 () "    QHBoxLayout *hboxLayout;" 1349 0  () () 0]
+[ebrowse-ms "hboxLayout1" () 0 () "    QHBoxLayout *hboxLayout1;" 1630 0  () () 0]
+[ebrowse-ms "inFilesBox" () 0 () "    QTextEdit *inFilesBox;" 1657 0  () () 0]
+[ebrowse-ms "labelDiagnos" () 0 () "    QLabel *labelDiagnos;" 1300 0  () () 0]
+[ebrowse-ms "labelFiles2Send" () 0 () "    QLabel *labelFiles2Send;" 1580 0  () () 0]
+[ebrowse-ms "line_2" () 0 () "    QFrame *line_2;" 1320 0  () () 0]
+[ebrowse-ms "line_3" () 0 () "    QFrame *line_3;" 1600 0  () () 0]
+[ebrowse-ms "menuBar" () 0 () "    QMenuBar *menuBar;" 1789 0  () () 0]
+[ebrowse-ms "menuControl" () 0 () "    QMenu *menuControl;" 1834 0  () () 0]
+[ebrowse-ms "menuInfo" () 0 () "    QMenu *menuInfo;" 1810 0  () () 0]
+[ebrowse-ms "menuLang" () 0 () "    QMenu *menuLang;" 1855 0  () () 0]
+[ebrowse-ms "menuSysTrayIcon" () 0 () "    QMenu *menuSysTrayIcon;" 1883 0  () () 0]
+[ebrowse-ms "progressBar" () 0 () "    QProgressBar *progressBar;" 1521 0  () () 0]
+[ebrowse-ms "rcvBt" () 0 () "    QCheckBox *rcvBt;" 1430 0  () () 0]
+[ebrowse-ms "sendBt" () 0 () "    QPushButton *sendBt;" 1740 0  () () 0]
+[ebrowse-ms "statBar" () 0 () "    QStatusBar *statBar;" 1908 0  () () 0]
+[ebrowse-ms "vboxLayout" () 0 () "    QVBoxLayout *vboxLayout;" 1274 0  () () 0]
+[ebrowse-ms "vboxLayout1" () 0 () "    QVBoxLayout *vboxLayout1;" 1408 0  () () 0]
+[ebrowse-ms "vboxLayout2" () 0 () "    QVBoxLayout *vboxLayout2;" 1551 0  () () 0]
+[ebrowse-ms "vboxLayout3" () 0 () "    QVBoxLayout *vboxLayout3;" 1687 0  () () 0]
+[ebrowse-ms "verbBt" () 0 () "    QCheckBox *verbBt;" 1453 0  () () 0]
+)
+([ebrowse-ms "retranslateUi" () 0 () "    void retranslateUi(QMainWindow" 12085 0  () "    void retranslateUi(QMainWindow" 12085]
+[ebrowse-ms "setupUi" () 0 () "    void setupUi(QMainWindow" 1938 0  () "    void setupUi(QMainWindow" 1938]
+)
+()
+()
+()
+()
+()()
+][ebrowse-ts [ebrowse-cs "Ui_InfoDialog" "Ui" 0() () 0() ]
+([ebrowse-ts [ebrowse-cs "InfoDialog" "Ui" 0"ui_infomsg.h" "class InfoDialog:" 4202() ]
+()()
+()
+()
+()
+()
+()
+()()
+])()
+()
+()
+()
+()
+()
+()()
+][ebrowse-ts [ebrowse-cs "Ui_InfoDialog" () 0"ui_infomsg.h" "class Ui_InfoDialog
+{" 679"ui_infomsg.h" ]
+()([ebrowse-ms "InfoMsgGroupBox" () 0 () "    QGroupBox *InfoMsgGroupBox;" 748 0  () () 0]
+[ebrowse-ms "gridLayout" () 0 () "    QGridLayout *gridLayout;" 716 0  () () 0]
+[ebrowse-ms "gridLayout1" () 0 () "    QGridLayout *gridLayout1;" 778 0  () () 0]
+[ebrowse-ms "infoMsg" () 0 () "    QTextEdit *infoMsg;" 802 0  () () 0]
+)
+([ebrowse-ms "retranslateUi" () 0 () "    void retranslateUi(QDialog" 3343 0  () "    void retranslateUi(QDialog" 3343]
+[ebrowse-ms "setupUi" () 0 () "    void setupUi(QDialog" 828 0  () "    void setupUi(QDialog" 828]
+)
+()
+()
+()
+()
+()()
+][ebrowse-ts [ebrowse-cs "Ui_rcvDirDialog" "Ui" 0() () 0() ]
+([ebrowse-ts [ebrowse-cs "rcvDirDialog" "Ui" 0"ui_rcvdir.h" "class rcvDirDialog:" 3881() ]
+()()
+()
+()
+()
+()
+()
+()()
+])()
+()
+()
+()
+()
+()
+()()
+][ebrowse-ts [ebrowse-cs "Ui_rcvDirDialog" () 0"ui_rcvdir.h" "class Ui_rcvDirDialog
+{" 738"ui_rcvdir.h" ]
+()([ebrowse-ms "buttonBox" () 0 () "    QDialogButtonBox *buttonBox;" 808 0  () () 0]
+[ebrowse-ms "gridLayout" () 0 () "    QGridLayout *gridLayout;" 775 0  () () 0]
+[ebrowse-ms "hboxLayout" () 0 () "    QHBoxLayout *hboxLayout;" 837 0  () () 0]
+[ebrowse-ms "label" () 0 () "    QLabel *label;" 856 0  () () 0]
+[ebrowse-ms "rcvDirWidget" () 0 () "    QLineEdit *rcvDirWidget;" 885 0  () () 0]
+)
+([ebrowse-ms "retranslateUi" () 0 () "    void retranslateUi(QDialog" 2932 0  () "    void retranslateUi(QDialog" 2932]
+[ebrowse-ms "setupUi" () 0 () "    void setupUi(QDialog" 911 0  () "    void setupUi(QDialog" 911]
+)
+()
+()
+()
+()
+()()
+][ebrowse-ts [ebrowse-cs "QMainWindow" () 0() () 0() ]
+([ebrowse-ts [ebrowse-cs "Qirda" () 0"qirda.hpp" "class Qirda :" 1284"qirda.hpp" ]
+()([ebrowse-ms "NumOfFiles" () 0 () "    int NumOfFiles;" 3167 2  () () 0]
+[ebrowse-ms "actEnableRcv" () 0 () "    QAction* actEnableRcv;" 3046 2  () () 0]
+[ebrowse-ms "actQuit" () 0 () "    QAction* actQuit;" 3093 2  () () 0]
+[ebrowse-ms "actRestore" () 0 () "    QAction* actRestore;" 3071 2  () () 0]
+[ebrowse-ms "filesToSend" () 0 () "    QStringList filesToSend;" 3147 2  () () 0]
+[ebrowse-ms "infoDialog" () 0 () "    Ui::InfoDialog infoDialog;" 2905 2  () () 0]
+[ebrowse-ms "newRcvDir" () 0 () "    QString newRcvDir;" 2984 2  () () 0]
+[ebrowse-ms "qirdaReceiver" () 0 () "    QProcess* qirdaReceiver;" 3225 2  () () 0]
+[ebrowse-ms "qirdaWin" () 0 () "    Ui::QirdaWindow qirdaWin;" 2874 2  () () 0]
+[ebrowse-ms "rcvDirPopUp" () 0 () "    Ui::rcvDirDialog rcvDirPopUp;" 2939 2  () () 0]
+[ebrowse-ms "sysTrayIcon" () 0 () "    QSystemTrayIcon* sysTrayIcon;" 3019 2  () () 0]
+[ebrowse-ms "sysTrayMenu" () 0 () "    QMenu* sysTrayMenu;" 3117 2  () () 0]
+[ebrowse-ms "workingDir" () 0 () "    QDir workingDir;" 2961 2  () () 0]
+)
+([ebrowse-ms "AddFiles" () 0 () "    void AddFiles(void" 1487 2  "qirda.cpp" "Qirda::AddFiles(void" 3587]
+[ebrowse-ms "ClearSelectedFiles" () 0 () "    void ClearSelectedFiles(void" 1635 2  "qirda.cpp" "Qirda::ClearSelectedFiles(void" 4630]
+[ebrowse-ms "DetectDevices" () 0 () "    void DetectDevices(void" 1709 2  "qirda.cpp" "Qirda::DetectDevices(void" 4906]
+[ebrowse-ms "GetFileName" () 2 () "    inline QString GetFileName(QStringList" 1789 2  () "    inline QString GetFileName(QStringList" 1789]
+[ebrowse-ms "Progress" () 0 () "    void Progress(int" 1942 2  "qirda.cpp" "Qirda::Progress(int" 6618]
+[ebrowse-ms "Qirda" () 0 () "    Qirda(QWidget* papa = 0);" 1345 2  "qirda.cpp" "        :" 718]
+[ebrowse-ms "QuitNicely" () 0 () "    void QuitNicely(void" 2016 2  "qirda.cpp" "Qirda::QuitNicely(void" 6930]
+[ebrowse-ms "ResetLocaleLang" () 0 () "    void ResetLocaleLang(void" 2096 2  "qirda.cpp" "Qirda::ResetLocaleLang(void" 7279]
+[ebrowse-ms "SelectRcvDir" () 0 () "    void SelectRcvDir(void" 2165 2  "qirda.cpp" "Qirda::SelectRcvDir(void" 5462]
+[ebrowse-ms "Send" () 0 () "    void Send(void" 2229 2  "qirda.cpp" "Qirda::Send(void" 7861]
+[ebrowse-ms "SetLocaleLang" () 0 () "    void SetLocaleLang(void" 2311 2  "qirda.cpp" "Qirda::SetLocaleLang(void" 9830]
+[ebrowse-ms "ShowDebugData" () 0 () "    void ShowDebugData(QProcess" 2442 2  "qirda.cpp" "Qirda::ShowDebugData(QProcess" 6144]
+[ebrowse-ms "ShowDebugMsg" () 2 () "    inline void ShowDebugMsg(QString" 2491 2  () "    inline void ShowDebugMsg(QString" 2491]
+[ebrowse-ms "ShowStatMsg" () 2 () "    inline void ShowStatMsg(QString" 2656 2  () "    inline void ShowStatMsg(QString" 2656]
+[ebrowse-ms "StartSending" () 0 () "    void StartSending(void" 2407 2  "qirda.cpp" "Qirda::StartSending(void" 9371]
+[ebrowse-ms "TellAbout" () 0 () "    void TellAbout(void" 1554 2  "qirda.cpp" "Qirda::TellAbout(void" 10407]
+[ebrowse-ms "ToggleReceiving" () 0 () "    void ToggleReceiving(void" 2831 2  "qirda.cpp" "Qirda::ToggleReceiving(void" 11621]
+)
+()
+()
+()
+()
+()()
+])()
+()
+()
+()
+()
+()
+()()
+][ebrowse-ts [ebrowse-cs "*Globals*" () 0() () 0"irobex.h" ]
+()([ebrowse-ms "obexProtocolType" () 0 () () 0 0  () "extern int obexProtocolType;" 3286]
+[ebrowse-ms "rcvDir" () 256 () () 0 0  () "    extern char* rcvDir;" 3077]
+)
+([ebrowse-ms "BuildObjFromFile" () 256 "irobex.h" "    obex_object_t* BuildObjFromFile(obex_t" 2337 0  () () 0]
+[ebrowse-ms "GetFileSize" () 256 "irobex.h" "    int GetFileSize(const" 2276 0  () () 0]
+[ebrowse-ms "ObexEvent" () 256 "irobex.h" "    void ObexEvent(obex_t" 2628 0  () () 0]
+[ebrowse-ms "Present" () 0 "main.cpp" "Present(void" 640 0  "main.cpp" "Present(void" 640]
+[ebrowse-ms "PutDone" () 256 "irobex.h" "    void PutDone(obex_object_t" 2988 0  () () 0]
+[ebrowse-ms "Q_CONSTRUCTOR_FUNCTION" () 0 "qrc_qirda.cpp" "Q_CONSTRUCTOR_FUNCTION(qInitResources_qirda" 132714 0  "qrc_qirda.cpp" "Q_CONSTRUCTOR_FUNCTION(qInitResources_qirda" 132714]
+[ebrowse-ms "Q_DESTRUCTOR_FUNCTION" () 0 "qrc_qirda.cpp" "Q_DESTRUCTOR_FUNCTION(qCleanupResources_qirda" 133015 0  () () 0]
+[ebrowse-ms "Rcv" () 256 "irobex.h" "    int Rcv(void" 3136 0  () () 0]
+[ebrowse-ms "ReadEasily" () 256 "irobex.h" "    uint8_t* ReadEasily(const" 2496 0  () () 0]
+[ebrowse-ms "RequestSync" () 256 "irobex.h" "    int RequestSync(obex_t" 2557 0  () () 0]
+[ebrowse-ms "SaveSafely" () 256 "irobex.h" "    int SaveSafely(char" 2428 0  () () 0]
+[ebrowse-ms "Send" () 256 "irobex.h" "    int Send(char" 3156 0  () () 0]
+[ebrowse-ms "ServerRequest" () 256 "irobex.h" "    void ServerRequest(obex_object_t" 2926 0  () () 0]
+[ebrowse-ms "SetClientDone" () 256 "irobex.h" "    void SetClientDone(obex_object_t" 2850 0  () () 0]
+[ebrowse-ms "SetSrvDone" () 256 "irobex.h" "    void SetSrvDone(obex_object_t" 2788 0  () () 0]
+[ebrowse-ms "TargetExist" () 256 "irobex.h" "    int TargetExist(char" 2395 0  () () 0]
+[ebrowse-ms "WaitRsp" () 256 "irobex.h" "    int WaitRsp(void" 2751 0  () () 0]
+[ebrowse-ms "main" () 0 "main.cpp" "main(int" 766 0  "main.cpp" "main(int" 766]
+[ebrowse-ms "qInitResources_qirda" () 0 "qrc_qirda.cpp" "int qInitResources_qirda()" 132450 0  "qrc_qirda.cpp" "int qInitResources_qirda()" 132450]
+)
+([ebrowse-ms "qt_resource_data" () 0 () () 0 0  "qrc_qirda.cpp" "    };" 130758]
+[ebrowse-ms "qt_resource_name" () 0 () () 0 0  "qrc_qirda.cpp" "    };" 131805]
+[ebrowse-ms "qt_resource_struct" () 0 () () 0 0  "qrc_qirda.cpp" "    };" 132422]
+)
+()
+([ebrowse-ms "ADDRESS_BOOK" () 512 () () 0 0  () "#define ADDRESS_BOOK " 1966]
+[ebrowse-ms "APP_DEFINITION" () 512 () () 0 0  "qirda.hpp" "#define APP_DEFINITION " 1048]
+[ebrowse-ms "APP_NAME" () 512 () () 0 0  "qirda.hpp" "#define APP_NAME " 1017]
+[ebrowse-ms "APP_VERSION" () 512 () () 0 0  "qirda.hpp" "#define APP_VERSION " 1103]
+[ebrowse-ms "AUTHOR" () 512 () () 0 0  "qirda.hpp" "#define AUTHOR " 1138]
+[ebrowse-ms "DATE_BOOK" () 512 () () 0 0  () "#define DATE_BOOK " 2122]
+[ebrowse-ms "FILETYPES" () 512 () () 0 0  "qirda.hpp" "#define FILETYPES " 1204]
+[ebrowse-ms "HEADER_CREATOR_ID" () 512 () () 0 0  () "#define HEADER_CREATOR_ID " 1938]
+[ebrowse-ms "IROBEX_H" () 512 () () 0 0  () "#define IROBEX_H
+" 1850]
+[ebrowse-ms "MEMO_PAD" () 512 () () 0 0  () "#define MEMO_PAD " 2015]
+[ebrowse-ms "OBEX_PROTOCOL_GENERIC" () 512 () () 0 0  () "#define OBEX_PROTOCOL_GENERIC " 3317]
+[ebrowse-ms "OBEX_PROTOCOL_WIN95_IRXFER" () 512 () () 0 0  () "#define OBEX_PROTOCOL_WIN95_IRXFER " 3366]
+[ebrowse-ms "PILOT_RESOURCE" () 512 () () 0 0  () "#define PILOT_RESOURCE " 2180]
+[ebrowse-ms "QIRDA_HPP" () 512 () () 0 0  "qirda.hpp" "#define QIRDA_HPP
+" 639]
+[ebrowse-ms "TO_DO_LIST" () 512 () () 0 0  () "#define TO_DO_LIST " 2070]
+[ebrowse-ms "UI_INFOMSG_H" () 512 () () 0 0  "ui_infomsg.h" "#define UI_INFOMSG_H
+" 436]
+[ebrowse-ms "UI_QIRDA_H" () 512 () () 0 0  "ui_qirda.h" "#define UI_QIRDA_H
+" 430]
+[ebrowse-ms "UI_RCVDIR_H" () 512 () () 0 0  "ui_rcvdir.h" "#define UI_RCVDIR_H
+" 433]
+)
+()
+()()
+]

@@ -1,0 +1,75 @@
+
+irobex.h,286
+#define IROBEX_H32,1833
+#define HEADER_CREATOR_ID 37,1912
+#define ADDRESS_BOOK 39,1945
+#define MEMO_PAD 40,1998
+#define TO_DO_LIST 41,2051
+#define DATE_BOOK 42,2104
+#define PILOT_RESOURCE 43,2157
+#define OBEX_PROTOCOL_GENERIC 88,3287
+#define OBEX_PROTOCOL_WIN95_IRXFER 89,3331
+
+ui_infomsg.h,227
+#define UI_INFOMSG_H11,415
+class Ui_InfoDialog22,658
+    void setupUi(Ui_InfoDialog::setupUi30,804
+    void retranslateUi(Ui_InfoDialog::retranslateUi86,3313
+namespace Ui98,4170
+class InfoDialog:Ui::InfoDialog100,4185
+
+ui_qirda.h,236
+#define UI_QIRDA_H11,411
+class Ui_QirdaWindow32,923
+    void setupUi(Ui_QirdaWindow::setupUi72,1910
+    void retranslateUi(Ui_QirdaWindow::retranslateUi326,12051
+namespace Ui362,15647
+class QirdaWindow:Ui::QirdaWindow364,15662
+
+ui_rcvdir.h,235
+#define UI_RCVDIR_H11,413
+class Ui_rcvDirDialog24,715
+    void setupUi(Ui_rcvDirDialog::setupUi33,887
+    void retranslateUi(Ui_rcvDirDialog::retranslateUi83,2902
+namespace Ui95,3847
+class rcvDirDialog:Ui::rcvDirDialog97,3862
+
+qirda.hpp,358
+#define QIRDA_HPP16,621
+#define APP_NAME 41,1000
+#define APP_DEFINITION 42,1025
+#define APP_VERSION 43,1083
+#define AUTHOR 44,1123
+#define FILETYPES 45,1186
+class Qirda 48,1271
+    inline QString GetFileName(Qirda::GetFileName70,1747
+    inline void ShowDebugMsg(Qirda::ShowDebugMsg98,2455
+    inline void ShowStatMsg(Qirda::ShowStatMsg105,2621
+
+main.cpp,29
+Present(17,628
+main(24,758
+
+qirda.cpp,452
+Qirda::Qirda(18,698
+Qirda::AddFiles(100,3567
+Qirda::ClearSelectedFiles(135,4600
+Qirda::DetectDevices(149,4881
+Qirda::SelectRcvDir(168,5438
+Qirda::ShowDebugData(191,6115
+Qirda::Progress(208,6599
+Qirda::QuitNicely(218,6908
+Qirda::ResetLocaleLang(231,7252
+Qirda::Send(250,7845
+    enum { STREAMSIZE ::STREAMSIZE253,7890
+Qirda::StartSending(295,9347
+Qirda::SetLocaleLang(311,9805
+Qirda::TellAbout(329,10386
+Qirda::ToggleReceiving(357,11594
+
+qrc_qirda.cpp,295
+static const unsigned char qt_resource_data[qt_resource_data12,365
+static const unsigned char qt_resource_name[qt_resource_name1535,130760
+static const unsigned char qt_resource_struct[qt_resource_struct1565,131807
+int qInitResources_qirda(1582,132424
+Q_CONSTRUCTOR_FUNCTION(1588,132671
