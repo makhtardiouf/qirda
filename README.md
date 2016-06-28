@@ -1,8 +1,8 @@
 qirda
 =====
 
-	qirda - Send/Receive files to/from infrared-enabled devices
-  GUI made with QT 5.5
+	qirda - Transfer files to/from infrared-enabled devices
+  	GUI made with QT 5.5
   
  SYNOPSIS
 
@@ -28,11 +28,10 @@ qirda
  FEATURES
 
 	* Accepted file types: jpg, png, wav, vcf
-    	* File sending in single-thread mode        
-	* File receiving in multi-thread mode
+	* Files are transmitted in single-thread mode and received in multi-thread mode
 	* Receiving mode toggable with one click
-    * System tray icon support with context menu
-    * Detecting irda enabled devices nearby is NOT yet implemented.
+	* System tray icon support with context menu
+	* Detecting irda enabled devices nearby is NOT yet implemented.
 
 
  BUILDING QIRDA
